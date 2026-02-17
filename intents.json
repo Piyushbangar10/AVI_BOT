@@ -1,0 +1,356 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey Avi",
+        "Wake up",
+        "Good morning",
+        "System check"
+      ],
+      "responses": [
+        "Systems online. Ready for command.",
+        "Hello. I am listening.",
+        "Greetings, User."
+      ]
+    },
+    {
+      "tag": "bye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "Exit",
+        "Quit",
+        "Shutdown",
+        "Power off"
+      ],
+      "responses": [
+        "Powering down systems.",
+        "Goodbye.",
+        "Ending session."
+      ]
+    },
+    {
+      "tag": "who_are_you",
+      "patterns": [
+        "Who are you?",
+        "Identify yourself",
+        "What is your name?"
+      ],
+      "responses": [
+        "I am A.V.I. Your virtual interface.",
+        "I am an AI designed for system control."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke",
+        "Say something funny",
+        "Make me laugh"
+      ],
+      "responses": [
+        "Why do Java developers wear glasses? Because they don't C#.",
+        "I would tell you a joke, but my humor driver is outdated.",
+        "Why did the programmer quit his job? He didn't get arrays."
+      ]
+    },
+    {
+      "tag": "volume_up",
+      "patterns": [
+        "Volume up",
+        "Louder",
+        "Increase sound",
+        "Turn it up"
+      ],
+      "responses": [
+        "Increasing volume levels."
+      ]
+    },
+    {
+      "tag": "volume_down",
+      "patterns": [
+        "Volume down",
+        "Lower sound",
+        "Quiet",
+        "Turn it down"
+      ],
+      "responses": [
+        "Decreasing volume levels."
+      ]
+    },
+    {
+      "tag": "youtube",
+      "patterns": [
+        "Open YouTube",
+        "Launch YouTube"
+      ],
+      "responses": [
+        "Accessing YouTube."
+      ]
+    },
+    {
+      "tag": "youtube_music",
+      "patterns": [
+        "Open YouTube Music",
+        "Play music on youtube"
+      ],
+      "responses": [
+        "Accessing YouTube Music."
+      ]
+    },
+    {
+      "tag": "screenshot",
+      "patterns": [
+        "Take screenshot",
+        "Capture screen",
+        "Screenshot this"
+      ],
+      "responses": [
+        "Screen captured."
+      ]
+    },
+    {
+      "tag": "battery_status",
+      "patterns": [
+        "Check battery",
+        "Battery status",
+        "How much power left",
+        "Battery percentage"
+      ],
+      "responses": [
+        "Checking power cells."
+      ]
+    },
+    {
+      "tag": "cpu_status",
+      "patterns": [
+        "Cpu usage",
+        "System load",
+        "How is the cpu",
+        "Processor status"
+      ],
+      "responses": [
+        "Analyzing system load."
+      ]
+    },
+    {
+      "tag": "brightness_up",
+      "patterns": [
+        "Increase brightness",
+        "Brighter screen",
+        "Light up"
+      ],
+      "responses": [
+        "Adjusting display luminosity."
+      ]
+    },
+    {
+      "tag": "brightness_down",
+      "patterns": [
+        "Decrease brightness",
+        "Dim screen",
+        "Lower light",
+        "Darker"
+      ],
+      "responses": [
+        "Dimming display."
+      ]
+    },
+    {
+      "tag": "lock_system",
+      "patterns": [
+        "Lock PC",
+        "Lock system",
+        "Secure workstation",
+        "Lock screen"
+      ],
+      "responses": [
+        "Locking workstation."
+      ]
+    },
+    {
+      "tag": "open_app",
+      "patterns": [
+        "Open app",
+        "Launch app",
+        "Start program",
+        "Run application"
+      ],
+      "responses": [
+        "What application should I open?",
+        "Launching."
+      ]
+    },
+    {
+      "tag": "minimize_windows",
+      "patterns": [
+        "Minimize all",
+        "Hide windows",
+        "Show desktop",
+        "Minimize everything"
+      ],
+      "responses": [
+        "Minimizing all windows."
+      ]
+    },
+    {
+      "tag": "wikipedia_search",
+      "patterns": [
+        "Who is",
+        "What is",
+        "Tell me about",
+        "Search wikipedia for",
+        "Wikipedia"
+      ],
+      "responses": [
+        "Searching database."
+      ]
+    },
+    {
+      "tag": "close_app",
+      "patterns": [
+        "Close",
+        "Exit app",
+        "Kill process",
+        "Terminate"
+      ],
+      "responses": [
+        "Closing application."
+      ]
+    },
+    {
+      "tag": "type_text",
+      "patterns": [
+        "Type",
+        "Write this",
+        "Dictate"
+      ],
+      "responses": [
+        "Typing."
+      ]
+    },
+    {
+      "tag": "stop_listening",
+      "patterns": [
+        "Stop listening",
+        "Go to sleep",
+        "Pause",
+        "Hold on"
+      ],
+      "responses": [
+        "Entering standby mode."
+      ]
+    },
+    {
+      "tag": "google_search",
+      "patterns": [
+        "Google search",
+        "Search on google",
+        "Search for",
+        "Find on web"
+      ],
+      "responses": [
+        "Searching on Google."
+      ]
+    },
+    {
+      "tag": "shutdown_system",
+      "patterns": [
+        "Shutdown system",
+        "Turn off computer",
+        "Shutdown PC"
+      ],
+      "responses": [
+        "Initiating system shutdown sequence."
+      ]
+    },
+    {
+      "tag": "restart_system",
+      "patterns": [
+        "Restart system",
+        "Reboot computer",
+        "Restart PC"
+      ],
+      "responses": [
+        "Restarting system."
+      ]
+    },
+    {
+      "tag": "date_time",
+      "patterns": [
+        "What time is it",
+        "What is the date",
+        "Current time",
+        "Tell me the date"
+      ],
+      "responses": [
+        "Checking temporal data."
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What is the weather",
+        "Weather forecast",
+        "Temperature outside",
+        "Weather report",
+        "Is it raining"
+      ],
+      "responses": [
+        "Checking meteorological data."
+      ]
+    },
+    {
+      "tag": "news",
+      "patterns": [
+        "Tell me the news",
+        "Headlines",
+        "What's happening",
+        "Top news",
+        "News update"
+      ],
+      "responses": [
+        "Fetching latest headlines."
+      ]
+    },
+    {
+      "tag": "take_note",
+      "patterns": [
+        "Take a note",
+        "Write this down",
+        "Note this",
+        "Add memory"
+      ],
+      "responses": [
+        "Ready to record."
+      ]
+    },
+    {
+      "tag": "read_notes",
+      "patterns": [
+        "Read my notes",
+        "What are my notes",
+        "Show notes",
+        "Recall memories"
+      ],
+      "responses": [
+        "Accessing memory banks."
+      ]
+    },
+    {
+      "tag": "system_status_extended",
+      "patterns": [
+        "Check disk space",
+        "Storage status",
+        "Hard drive space",
+        "System health"
+      ],
+      "responses": [
+        "Running deep diagnostic."
+      ]
+    }
+  ]
+}

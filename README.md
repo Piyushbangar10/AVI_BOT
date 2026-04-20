@@ -4,7 +4,6 @@ AVI BOT is a comprehensive AI-powered personal assistant designed to automate ta
 
 ## Developers
 *   **Piyush Bangar**
-*   **Yash Verma**
 
 
 ## Features
